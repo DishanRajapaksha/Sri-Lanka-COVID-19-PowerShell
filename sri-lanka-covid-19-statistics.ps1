@@ -5,7 +5,7 @@ $Restparam = @{
 
 $response = Invoke-RestMethod @restparam
 
-Write-Host "Sri Lanka COV-ID-19 Statistics from Sri Lanka Health Promotion Bureau" -ForegroundColor Cyan
+Write-Host "Sri Lanka COVID-19 Statistics from Sri Lanka Health Promotion Bureau" -ForegroundColor Cyan
 
 Write-Host "Updated at $($response.data.update_date_time)" -ForegroundColor DarkCyan
 
